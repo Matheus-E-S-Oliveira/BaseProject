@@ -6,7 +6,8 @@
     <Project Path="BackEnd.Domain/BackEnd.Domain/BackEnd.Domain.csproj" />
   </Folder>
   <Folder Name="/BackEnd.Infrastructure/">
-    <Project Path="BackEnd.Infrastructure/BackEnd.Infrastructure/BackEnd.Infrastructure.csproj" />
+    <Project Path="BackEnd.Infrastructure/BackEnd.Infrastructure.Core/BackEnd.Infrastructure.Core.csproj" Id="e9f82af9-234d-4c94-8710-564c58b7babe" />
+    <Project Path="BackEnd.Infrastructure/BackEnd.Infrastructure.Data/BackEnd.Infrastructure.Data.csproj" Id="994708f1-f4ac-496c-b4ce-45bfba37f0fe" />
   </Folder>
   <Folder Name="/BackEnd.Tests/">
     <Project Path="BackEnd.Tests/BackEnd.Tests.Integration/BackEnd.Tests.Integration.csproj" />
@@ -14,5 +15,9 @@
   </Folder>
   <Folder Name="/BackEnd.WebApi/">
     <Project Path="BackEnd.WebApi/BackEnd.WebApi/BackEnd.WebApi.csproj" />
+  </Folder>
+  <Folder Name="/Itens de Solução/" />
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
   </Folder>
 </Solution>
