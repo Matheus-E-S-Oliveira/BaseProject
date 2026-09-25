@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/BackEnd.Application/">
+    <Project Path="BackEnd.Application/BackEnd.Application/BackEnd.Application.csproj" />
+  </Folder>
+  <Folder Name="/BackEnd.Domain/">
+    <Project Path="BackEnd.Domain/BackEnd.Domain/BackEnd.Domain.csproj" />
+  </Folder>
+  <Folder Name="/BackEnd.Infrastructure/">
+    <Project Path="BackEnd.Infrastructure/BackEnd.Infrastructure/BackEnd.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/BackEnd.Tests/">
+    <Project Path="BackEnd.Tests/BackEnd.Tests.Integration/BackEnd.Tests.Integration.csproj" />
+    <Project Path="BackEnd.Tests/BackEnd.Tests.Unit/BackEnd.Tests.Unit.csproj" />
+  </Folder>
+  <Folder Name="/BackEnd.WebApi/">
+    <Project Path="BackEnd.WebApi/BackEnd.WebApi/BackEnd.WebApi.csproj" />
+  </Folder>
+</Solution>
