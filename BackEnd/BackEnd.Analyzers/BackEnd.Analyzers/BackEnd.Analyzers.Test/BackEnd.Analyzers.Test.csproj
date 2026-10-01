@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFramework>net10.0</TargetFramework>
+	<LangVersion>latest</LangVersion>
+	<IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.10.1" />
+    <PackageReference Include="MSTest.TestFramework" Version="4.4.1" />
+
+	<PackageReference Include="Microsoft.CodeAnalysis.CSharp.Analyzer.Testing" Version="1.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BackEnd.Analyzers.CodeFixes\BackEnd.Analyzers.CodeFixes.csproj" />
+    <ProjectReference Include="..\BackEnd.Analyzers\BackEnd.Analyzers.csproj" />
+  </ItemGroup>
+
+</Project>
