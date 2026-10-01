@@ -1,4 +1,14 @@
 <Solution>
+  <Folder Name="/BackEnd.Analyzers.SourceGenerator/">
+    <Project Path="BackEnd.Analyzers.SourceGenerator/BackEnd.Analyzers.SourceGenerator/BackEnd.Analyzers.SourceGenerator.csproj" Id="53fe9ad6-ad99-4d5a-9eda-1256524dab62" />
+  </Folder>
+  <Folder Name="/BackEnd.Analyzers/">
+    <Project Path="BackEnd.Analyzers/BackEnd.Analyzers/BackEnd.Analyzers.CodeFixes/BackEnd.Analyzers.CodeFixes.csproj" Id="eb66598f-0b81-4f38-8864-e82b7a1f4cc9" />
+    <Project Path="BackEnd.Analyzers/BackEnd.Analyzers/BackEnd.Analyzers.Package/BackEnd.Analyzers.Package.csproj" Id="7fb3458d-0ba4-4a26-924c-64b6786a08c8" />
+    <Project Path="BackEnd.Analyzers/BackEnd.Analyzers/BackEnd.Analyzers.Test/BackEnd.Analyzers.Test.csproj" Id="f771c52a-3734-4500-bce5-a3a577415bb9" />
+    <Project Path="BackEnd.Analyzers/BackEnd.Analyzers/BackEnd.Analyzers.Vsix/BackEnd.Analyzers.Vsix.csproj" Id="7f7272f5-e3c1-4868-9d86-13bdf0bbfebf" />
+    <Project Path="BackEnd.Analyzers/BackEnd.Analyzers/BackEnd.Analyzers/BackEnd.Analyzers.csproj" Id="3803e51d-79c8-4e98-a3f0-56e343155b17" />
+  </Folder>
   <Folder Name="/BackEnd.Application/">
     <Project Path="BackEnd.Application/BackEnd.Application/BackEnd.Application.csproj" />
   </Folder>

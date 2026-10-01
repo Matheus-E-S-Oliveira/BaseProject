@@ -7,7 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\BackEnd.Domain\BackEnd.Domain\BackEnd.Domain.csproj" />
     <ProjectReference Include="..\BackEnd.Infrastructure.Core\BackEnd.Infrastructure.Core.csproj" />
+
+	<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.12">
+		<PrivateAssets>all</PrivateAssets>
+		<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	</PackageReference>
+	  
+	<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.12">
+		<PrivateAssets>all</PrivateAssets>
+		<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	</PackageReference>
   </ItemGroup>
 
 </Project>
